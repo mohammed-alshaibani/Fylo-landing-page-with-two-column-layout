@@ -1,8 +1,8 @@
-@import url("/css/section/header.css");
-@import url("/css/section/main.css");
-@import url("/css/section/access.css");
-@import url("/css/section/productive.css");
-@import url("/css/section/footer.css");
+@import url("./css/section/header.css");
+@import url("./css/section/main.css");
+@import url("./css/section/access.css");
+@import url("./css/section/productive.css");
+@import url("./css/section/footer.css");
 
 
 /* CSS variables for reusablity across all files (including above imported) */
