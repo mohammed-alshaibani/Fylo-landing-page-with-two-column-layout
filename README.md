@@ -26,7 +26,7 @@ Fylo is a cloud storage service that allows you to securely store and access you
 
 ```bash
 git clone https://github.com/mohammed-alshaibani/Fylo-landing-page-with-two-column-layout.git
-cd fylo-cloud-storage
+cd Fylo-landing-page-with-two-column-layout
 ```
 
 ### Open the project
