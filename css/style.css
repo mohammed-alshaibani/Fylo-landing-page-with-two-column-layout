@@ -1,0 +1,62 @@
+@import url("/css/section/header.css");
+@import url("/css/section/main.css");
+@import url("/css/section/access.css");
+@import url("/css/section/productive.css");
+@import url("/css/section/footer.css");
+
+
+/* CSS variables for reusablity across all files (including above imported) */
+:root {
+  --playfair-display: 'Open Sans', sans-serif;
+  --plus-jakarta-sans: 'Raleway', sans-serif;
+
+
+  --primary-color: #070439;
+  --secondary-color: #121212;
+
+  --black-200: #020202;
+  --black-300: #333333;
+  --black-400: #1f1e31;
+  --black-500: #555555;
+  --gray-100: #888888;
+  --color-white: #fff;
+  --color-creamson: #fff0de;
+  --font-200:200 ;
+  --font-400: 400;
+  --font-600:600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--playfair-display);
+  font-weight: 200;
+  margin: 0 auto;
+  background-color: var(--color-white);
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+.bold {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+

@@ -1,0 +1,28 @@
+.access {
+  background-color: hsl(238, 22%, 44%);
+  color: #fff;
+  display: flex;
+  gap: 5rem;
+  padding-top: 2rem;
+}
+.access .main-content__btn {
+  display: inline-block;
+  width: fit-content;
+}
+
+.access .main-content__email {
+  display: inline-block;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.access .main-content__title {
+  color: #fff;
+}
+
+@media screen and (max-width: 414px) {
+  .access {
+    flex-direction: column;
+  }
+}

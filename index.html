@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Flyo</title>
+  </head>
+  <body>
+    <header>
+      <nav class="header__nav">
+        <div class="header__logo">
+          <h4 data-aos="fade-down">Fylo</h4>
+        </div>
+        <ul class="header__menu">
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Sign In</a></li>
+        </ul>
+        <ul class="header__menu-mobile">
+          <li>
+            <img src="assets/menu.svg" alt="menu" />
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="main-content__section hero" data-aos="fade-left">
+        <section class="section__left">
+          <h2 class="main-content__title bold">
+            All your files in one secure location, accessible anywhere.
+          </h2>
+          <p class="main-content__text">
+            Fylo stores your most important files in one secure location. Access
+            them wherever you need, share and collaborate with friends, family,
+            and co-workers.
+          </p>
+          <input
+            class="main-content__email"
+            type="text"
+            name="email"
+            placeholder="Enter your email..."
+            aria-label="email"
+          />
+          <a class="main-content__btn bold" href="#">Get Started</a>
+        </section>
+        <section class="section__right">
+          <img
+            class="main-content__img"
+            src="/assets/illustration-1.svg"
+            alt="Fylo Illustration Image"
+          />
+        </section>
+      </section>
+
+      <section class="main-content__section productive" data-aos="fade-right">
+        <section class="section__left">
+          <h2 class="main-content__title bold">
+            Stay productive, wherever you are
+          </h2>
+          <p class="main-content__text">
+            Never let location be an issue when accessing your files. Fylo has
+            you covered for all of your file storage needs.
+          </p>
+          <p class="main-content__text">
+            Securely share files and folders with friends, family, and colleagues
+            for live collaboration. No email attachments required!
+          </p>
+          <a class="main-content__link inline nav" href="#">
+            See how Fylo works&thinsp;
+            <span class="arrow-icon">
+              <img src="/assets/icon-arrow.svg" alt="arrow icon" />
+            </span>
+          </a>
+          <blockquote class="card inline" cite="#">
+            <img
+              class="card__icon inline"
+              src="/assets/icon-quotes.svg"
+              alt="quotes icon"
+            />
+            <p class="card__text inline">
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <div class="card__footer inline">
+              <span>
+                <img
+                  class="card__footer__avatar inline"
+                  src="/assets/avatar-testimonial.jpg"
+                  alt="testimonial avatar"
+                />
+                <p class="card__footer__attr inline">
+                  <span class="bold">Kyle Burton</span><br />Founder & CEO,
+                  Huddle
+                </p>
+              </span>
+            </div>
+          </blockquote>
+        </section>
+        <section class="section__right">
+          <img
+            class="main-content__img"
+            src="/assets/illustration-2.svg"
+            alt="Fylo Illustration Image"
+          />
+        </section>
+      </section>
+
+      <section class="main-content__section access" data-aos="fade-left">
+        <section class="section__left">
+          <h2 class="main-content__title bold">Get early access today</h2>
+          <p class="main-content__text">
+            It only takes a minute to sign up and our free starter tier is
+            extremely generous. If you have any questions, our support team
+            would be happy to help you.
+          </p>
+        </section>
+        <section class="section__right">
+          <input
+            class="main-content__email"
+            type="text"
+            name="email"
+            placeholder="Enter your email..."
+            aria-label="email"
+          />
+          <a class="main-content__btn bold" href="#">Get Started For Free</a>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <section class="footer-main">
+        <img class="footer-logo" src="/assets/logo.svg" alt="Fylo Logo" />
+        <ul class="contact-info">
+          <li class="contact-info__item">
+            <img class="contact-icon" src="/assets/icon-phone.svg" alt="phone icon" />
+            Phone: +1-543-123-4567
+          </li>
+          <li class="contact-info__item">
+            <img class="contact-icon" src="/assets/icon-email.svg" alt="email icon" />
+            example@fylo.com
+          </li>
+        </ul>
+        <nav class="footer-nav nav nav1">
+          <a class="footer-nav__menu" href="#">About Us</a>
+          <a class="footer-nav__menu" href="#">Jobs</a>
+          <a class="footer-nav__menu" href="#">Press</a>
+          <a class="footer-nav__menu" href="#">Blog</a>
+        </nav>
+        <nav class="footer-nav nav nav2">
+          <a class="footer-nav__menu" href="#">Contact Us</a>
+          <a class="footer-nav__menu" href="#">Terms</a>
+          <a class="footer-nav__menu" href="#">Privacy</a>
+        </nav>
+        <div class="social-menu">
+          <a class="social-menu__link" href="https://www.facebook.com/" target="_blank">
+            <ion-icon name="logo-facebook" class="social-icon"></ion-icon>
+          </a>
+          <a class="social-menu__link" href="https://www.twitter.com/" target="_blank">
+            <ion-icon name="logo-twitter" class="social-icon"></ion-icon>
+          </a>
+          <a class="social-menu__link" href="https://www.instagram.com/" target="_blank">
+            <ion-icon name="logo-instagram" class="social-icon"></ion-icon>
+          </a>
+        </div>
+      </section>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        offset: 100,
+      });
+    </script>
+  </body>
+</html>
